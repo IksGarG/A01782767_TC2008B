@@ -1,0 +1,27 @@
+html body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+.flex-container {
+    display: flex;
+    margin: 1em;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    border: #333;
+    border-style: solid;
+    border-width: 5px
+}
+.flex-item {
+    margin: 1em;
+    padding: 1em;
+    border: #333;
+    border-style: solid;
+    border-width: 5px
+}
