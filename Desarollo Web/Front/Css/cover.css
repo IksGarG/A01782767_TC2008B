@@ -4,7 +4,7 @@ html body {
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    background-image: url("../../../images/backg.jpg");
+    background: linear-gradient(0deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.5) 100%), url("../../../images/backg.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -50,10 +50,16 @@ html body {
 .middle { 
     grid-area: 7 / 1 / 8 / 13;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     background-color: black;
+}
+.middle a {
+    margin-right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
 }
 .about { 
     grid-area: 8 / 1 / 12 / 13; 
